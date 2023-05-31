@@ -1,0 +1,9 @@
+# z-role enumeration name: route to redirect to after login
+# Example from PODS:
+
+#login_redirect:
+#  CIG_App_Admin: /pods_admin_dashboard
+#  CIG_APA: /pods_admin_dashboard
+#  CIG_NSHDS: /pods_awardee_dashboard
+#  CIG_NCDS: /pods_awardee_dashboard
+#  CIG_APT: /pods_awardee_dashboard
