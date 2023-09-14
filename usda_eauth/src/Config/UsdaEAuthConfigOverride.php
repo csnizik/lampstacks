@@ -55,6 +55,7 @@ class UsdaEAuthConfigOverride implements ConfigFactoryOverrideInterface {
       $overrides['openid_connect.client.generic']['settings']['token_endpoint'] = $eauth_url . '/token';
       $overrides['openid_connect.client.generic']['settings']['userinfo_endpoint'] = $eauth_url . '/userinfo';
       $overrides['openid_connect.client.generic']['settings']['end_session_endpoint'] = $eauth_url . '/revoke';
+      $overrides['openid_connect.client.generic']['settings']['scopes'] = ['openid', 'email', 'profile', 'usda_credential_data'];
     }
 
     return $overrides;
