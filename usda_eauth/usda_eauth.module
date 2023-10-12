@@ -42,10 +42,6 @@ function usda_eauth_openid_connect_userinfo_alter(&$userinfo, array $context) {
   // If an email address isn't set, generate one automatically from the
   // eAuth ID and hostname.
 
-  if (empty($eauth_id)) {
-    return $userinfo;
-  }
-
   if(empty($context['user_data']['email'])) {      
     $host = \Drupal::request()->getHost();
     $eauth_id = $context['user_data']['sub'];
