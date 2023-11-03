@@ -62,7 +62,7 @@ class TestSetAdmin extends FormBase {
     $lastName = 'GUST';
     $roleId = '5200';
     $roleName = 'CIG App Admin';
-    $roleEnum = 'CIG_App_Admin';
+    $roleEnum = ['NRCS_PODS_SH-AdminUser'];
     $roleDisplay = 'CIG App Admin';
 
     /*Store the user info in the session */

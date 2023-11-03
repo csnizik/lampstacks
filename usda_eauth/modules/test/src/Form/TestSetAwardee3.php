@@ -62,7 +62,7 @@ class TestSetAwardee3 extends FormBase {
     $lastName = 'HAINES';
     $roleId = '5202';
     $roleName = 'NRCS Soil Health Data Steward';
-    $roleEnum = 'CIG_NSHDS';
+    $roleEnum = ['NRCS_PODS_SH-User-Awardee'];
     $roleDisplay = 'NRCS Soil Health Data Steward';
 
     /*Store the user info in the session */
